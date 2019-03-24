@@ -1,0 +1,50 @@
+= My First Experience with the Dangers of Documentation
+:toc:
+
+In my world, we don't have to worry about mutant, script-injecting warlocks.
+No.
+We have something far worse.
+We're plagued by Wolpertingers.
+
+== Origins
+
+You may not be familiar with these https://en.wikipedia.org/wiki/Wolpertinger[ravenous beasts], but, trust me, they'll eat your shorts and suck the loops from your code.
+
+== Formatted Text
+
+=== Bold, Italic, and Monospace
+
+bold *constrained* & **un**constrained
+
+italic _constrained_ & __un__constrained
+
+bold italic *_constrained_* & **__un__**constrained
+
+monospace `constrained` & ``un``constrained
+
+monospace bold `*constrained*` & ``**un**``constrained
+
+monospace italic `_constrained_` & ``__un__``constrained
+
+monospace bold italic `*_constrained_*` & ``**__un__**``constrained
+
+=== Monospace vs codespan
+
+`{cpp}` is valid syntax in the programming language by the same name.
+
+`+WHERE id <= 20 AND value = "{name}"+` is a SQL WHERE clause.
+
+=== Marks and Custom Styling
+
+Werewolves are allergic to #cassia cinnamon#.
+
+Did the werewolves read the [.small]#small print#?
+
+Where did all the [.underline]#cores# run off to?
+
+We need [.line-through]#ten# make that twenty VMs.
+
+[.big]##O##nce upon an infinite loop.
+
+<script src="opal.js"></script>
+<script src="asciidoctor.js"></script>
